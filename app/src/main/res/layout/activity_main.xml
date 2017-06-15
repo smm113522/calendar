@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- CalendarView -->
+    <com.smm.rilidemo.customview.calendar.CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <com.smm.rilidemo.customview.agenda.AgendaView
+        android:id="@+id/agenda_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.smm.rilidemo.customview.agenda.AgendaView>
+
+</LinearLayout>

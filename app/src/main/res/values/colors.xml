@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Colors for Calendar view -->
+    <color name="calendar_month_transparent_background">#70ffffff</color>
+    <color name="calendar_text_default">#9C9CA0</color>
+    <color name="calendar_text_current_day">#ffffff</color>
+    <color name="calendar_text_past_day">#6c000000</color>
+    <color name="calendar_text_past_day1">#85af4b</color>
+    <color name="calendar_text_day">#3c3c3c</color>
+    <color name="calendar_header_day_background">#323453</color>
+    <color name="calendar_divider_color">#F3F3F3</color> <!-- 日程分割线-->
+    <color name="calendar_circle_current_color">#03A9F4</color>
+    <color name="calendar_agendaHead_current_color">#03A9F4</color>
+    <color name="calendar_circle_other_color">#85af4b</color>
+
+
+</resources>

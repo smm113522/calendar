@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smm.rilidemo.customview.agenda.AgendaEventView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="95.5dp"
+    android:gravity="center_vertical"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <!-- Description -->
+    <!-- 日程显示布局-->
+    <LinearLayout
+        android:id="@+id/view_agenda_event_description_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Alarm_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14:00 英語初級口語"
+            android:textSize="16sp"
+            android:textColor="#3c3c3c"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/view_agenda_event_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="上"
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_agenda_event_location_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/view_agenda_event_startAndEndTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="10:10-12:00"
+                android:gravity="center"
+                android:textColor="@color/calendar_text_default"
+                android:textSize="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/view_agenda_event_location"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="qwqwq"
+                android:textColor="@color/calendar_text_default"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/view_agenda_event_description"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="2333"
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:background="@drawable/radio_select_box"
+        android:button="@null"
+        android:layout_marginRight="10dp"
+        android:text="取消" />
+
+</com.smm.rilidemo.customview.agenda.AgendaEventView>
